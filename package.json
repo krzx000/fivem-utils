@@ -1,7 +1,7 @@
 {
   "name": "@krzx000/fivem-utils",
-  "version": "1.0.4",
-  "description": "Utils for FiveM development",
+  "version": "1.0.5",
+  "description": "A package containing most of the most important functions and hooks for creating FiveM NUI in React.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/krzx000/fivem-utils#readme",
   "devDependencies": {
     "@types/node": "^20.12.12",
+    "@types/react": "^18.3.3",
     "typescript": "^5.4.5"
   }
 }

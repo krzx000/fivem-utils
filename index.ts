@@ -1,7 +1,5 @@
-/**
- * Checks if the current environment is a browser.
- * @returns {boolean} Returns true if the environment is a browser, false otherwise.
- */
-export const isEnvBrowser = (): boolean => !(window as any).invokeNative;
+import { isEnvBrowser } from "@/utils/isEnvBrowser";
+import { fetchNui } from "@/api/fetchNui";
+import { useNuiEvent } from "@/hooks/useNuiEvent";
 
-export const testowa = () => console.log("dupa");
+export { isEnvBrowser, fetchNui, useNuiEvent };
