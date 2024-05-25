@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "publish": "npm version patch && tsc && git push && npm publish"
+    "compile": "tsc",
+    "commit": "git add . && git commit -m Prepublish_commit",
+    "release": "npm run compile && npm run commit && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
