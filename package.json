@@ -1,11 +1,11 @@
 {
   "name": "@krzx000/fivem-utils",
-  "version": "1.0.5",
+  "version": "2.0.0",
   "description": "A package containing most of the most important functions and hooks for creating FiveM NUI in React.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "publish": "tsc && npm publish"
   },
   "repository": {
     "type": "git",

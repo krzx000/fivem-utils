@@ -1,4 +1,4 @@
-import { isEnvBrowser } from "@/utils/isEnvBrowser";
+import { isEnvBrowser } from "../utils/isEnvBrowser";
 /**
  * Fetches data from the NUI using the specified event name and optional data payload.
  * @param eventName - The name of the NUI event to fetch data from.
@@ -7,7 +7,7 @@ import { isEnvBrowser } from "@/utils/isEnvBrowser";
  * @throws An error if the fetch operation fails.
  */
 export const fetchNui = async <T>(eventName: string, data?: unknown): Promise<T> => {
-  if (isEnvBrowser()) return undefined as any; // HACK FOR BORING ERRORS IN DEV
+  if (isEnvBrowser()) return undefined as any;
   const resourceName = (window as any).GetParentResourceName ? (window as any).GetParentResourceName() : null;
   if (!resourceName) throw new Error("Failed to fetch NUI callback! (Resource name not found)");
 

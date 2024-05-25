@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.fetchNui = void 0;
-const isEnvBrowser_1 = require("@/utils/isEnvBrowser");
+const isEnvBrowser_1 = require("../utils/isEnvBrowser");
 /**
  * Fetches data from the NUI using the specified event name and optional data payload.
  * @param eventName - The name of the NUI event to fetch data from.

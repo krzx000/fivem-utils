@@ -2,8 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.useNuiEvent = void 0;
 const react_1 = require("react");
-const noop_1 = require("@/utils/noop");
+const noop = () => { };
 /**
+ *
  * A hook that manage events listeners for receiving data from the client scripts
  * @param action The specific `action` that should be listened for.
  * @param handler The callback function that will handle data relayed by this hook
@@ -15,7 +16,7 @@ const noop_1 = require("@/utils/noop");
  *
  **/
 const useNuiEvent = (action, handler) => {
-    const savedHandler = (0, react_1.useRef)(noop_1.noop);
+    const savedHandler = (0, react_1.useRef)(noop);
     // When handler value changes set mutable ref to handler val
     (0, react_1.useEffect)(() => {
         savedHandler.current = handler;
