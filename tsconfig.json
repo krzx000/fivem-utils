@@ -8,7 +8,6 @@
     "skipLibCheck": true,
     "outDir": "./lib",
     "declaration": true,
-    "emitDeclarationOnly": true,
     "declarationMap": true
   },
   "include": ["src/**/*.ts", "test/**/*.ts"]
