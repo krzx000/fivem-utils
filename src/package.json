@@ -1,7 +1,6 @@
 {
-  "name": "krzx-fivem-utils",
+  "name": "fivem-utils",
   "version": "1.0.0",
-  "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,5 +12,23 @@
   "devDependencies": {
     "@types/node": "^20.12.12",
     "typescript": "^5.4.5"
-  }
+  },
+  "dependencies": {
+    "undici-types": "^5.26.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzx000/fivem-utils.git"
+  },
+  "keywords": [
+    "fivem",
+    "utils",
+    "nui",
+    "krzx"
+  ],
+  "bugs": {
+    "url": "https://github.com/krzx000/fivem-utils/issues"
+  },
+  "homepage": "https://github.com/krzx000/fivem-utils#readme",
+  "description": ""
 }
