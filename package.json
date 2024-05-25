@@ -1,6 +1,6 @@
 {
   "name": "@krzx000/fivem-utils",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "A package containing most of the most important functions and hooks for creating FiveM NUI in React.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
