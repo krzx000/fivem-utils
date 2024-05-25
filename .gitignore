@@ -9,10 +9,10 @@ yarn-error.log
 
 # Testing
 /coverage
-/test
+test/
 
 # Build output
-/lib
+lib/
 
 # Environment variables
 .env
