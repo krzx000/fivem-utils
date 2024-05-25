@@ -1,6 +1,6 @@
 # FiveM NUI Utils
 
-A package containing most of the most important functions and hooks for creating FiveM NUI in React.
+A package containing most of the most important functions and hooks for creating FiveM NUI.
 
 ## Version
 
@@ -18,12 +18,15 @@ Install @krzx000/fivem-utils with npm
   npm install @krzx000/fivem-util
 ```
 
-<!-- ## Usage/Examples
+## API Reference
+
+#### Fetch data from NUI
 
 ```javascript
-import Component from "my-project";
+fetchNui(eventName, data);
+```
 
-function App() {
-  return <Component />;
-}
-``` -->
+| Parameter   | Type     | Required | Description                                   |
+| :---------- | :------- | :------- | :-------------------------------------------- |
+| `eventName` | `string` | Yes      | The name of the NUI event to fetch data from. |
+| `data`      | `any`    | No       | Data payload to send along with the request.  |
