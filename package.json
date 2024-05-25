@@ -4,6 +4,9 @@
   "description": "A package containing most of the most important functions and hooks for creating FiveM NUI in React.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "compile": "tsc",
     "commit": "git add . && git commit -m Prepublish_commit",
