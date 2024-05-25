@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "publish": "tsc && npm publish"
+    "publish": "npm version patch && tsc && git push && npm publish"
   },
   "repository": {
     "type": "git",
